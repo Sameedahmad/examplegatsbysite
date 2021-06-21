@@ -247,24 +247,6 @@
 .columns:global(.__wab_instance) {
   position: relative;
 }
-.box__u3ACr {
-  height: auto;
-}
-.youTube__eoczP:global(.__wab_instance) {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  min-width: 0;
-}
-.listItem__xgnoq:global(.__wab_instance) {
-  position: relative;
-}
-.map__meaAf:global(.__wab_instance) {
-  position: relative;
-  height: 300px;
-  width: 100%;
-  min-width: 0;
-}
 .box__raHdp {
   display: flex;
   position: relative;

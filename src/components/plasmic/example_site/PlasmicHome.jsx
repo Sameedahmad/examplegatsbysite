@@ -115,57 +115,61 @@ function PlasmicHome__RenderFunc(props) {
                 </p.PlasmicLink>
               </p.Stack>
 
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(defaultcss.all, sty.box__jbrAi)}
-              >
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__t4PTh
-                  )}
-                >
-                  {"Page builder, meet Gatsby Visually."}
-                </div>
-
+              {(
+                hasVariant(globalVariants, "screen", "mobile") ? false : true
+              ) ? (
                 <p.Stack
                   as={"div"}
                   hasGap={true}
-                  className={classNames(defaultcss.all, sty.box__nuNch)}
+                  className={classNames(defaultcss.all, sty.box__jbrAi)}
                 >
                   <div
                     className={classNames(
                       defaultcss.all,
                       defaultcss.__wab_text,
-                      sty.box__x0F5O
+                      sty.box__t4PTh
                     )}
                   >
-                    <span>
-                      <React.Fragment>{"Introducing "}</React.Fragment>
-                      <span style={{ fontWeight: 700 }}>{"Plasmic 2.0"}</span>
-                      <React.Fragment>
-                        {
-                          ": the web design tool that integrates seamlessly with your codebase and lets you drag-and-drop your real production React components."
-                        }
-                      </React.Fragment>
-                    </span>
+                    {"Page builder, meet Gatsby Visually:"}
                   </div>
 
-                  <div
-                    className={classNames(
-                      defaultcss.all,
-                      defaultcss.__wab_text,
-                      sty.box___6IjG5
-                    )}
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(defaultcss.all, sty.box__nuNch)}
                   >
-                    {
-                      "Empower your team with your design system, interactive components, production data, and much more."
-                    }
-                  </div>
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__x0F5O
+                      )}
+                    >
+                      <span>
+                        <React.Fragment>{"Introducing "}</React.Fragment>
+                        <span style={{ fontWeight: 700 }}>{"Plasmic 2.0"}</span>
+                        <React.Fragment>
+                          {
+                            ": the web design tool that integrates seamlessly with your codebase and lets you drag-and-drop your real production React components."
+                          }
+                        </React.Fragment>
+                      </span>
+                    </div>
+
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box___6IjG5
+                      )}
+                    >
+                      {
+                        "Empower your team with your design system, interactive components, production data, and much more."
+                      }
+                    </div>
+                  </p.Stack>
                 </p.Stack>
-              </p.Stack>
+              ) : null}
 
               <p.Stack
                 as={"div"}
@@ -234,7 +238,10 @@ function PlasmicHome__RenderFunc(props) {
                 data-plasmic-name={"columns"}
                 data-plasmic-override={overrides.columns}
                 className={classNames("__wab_instance", sty.columns)}
-              />
+                slot={null}
+              >
+                {null}
+              </Columns>
             </p.Stack>
 
             <p.Stack
