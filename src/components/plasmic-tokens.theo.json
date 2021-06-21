@@ -1,0 +1,99 @@
+{
+  "props": [
+    {
+      "name": "Dark/Label",
+      "type": "color",
+      "value": "#FFFFFFD9",
+      "category": "color",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "_4jv7CwCzXryWO"
+      }
+    },
+    {
+      "name": "Heading",
+      "type": "fontsize",
+      "value": "32px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "LJiNKE9hw3hikX"
+      }
+    },
+    {
+      "name": "Light/Label",
+      "type": "color",
+      "value": "#000000D9",
+      "category": "color",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "REJryj0SI7MEWI"
+      }
+    },
+    {
+      "name": "Light/Secondary",
+      "type": "color",
+      "value": "#00000080",
+      "category": "color",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "wgrM1T7bBFTbxg"
+      }
+    },
+    {
+      "name": "Link",
+      "type": "color",
+      "value": "#04A4F4",
+      "category": "color",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "eebvLg-O-JIneb"
+      }
+    },
+    {
+      "name": "Section spacing",
+      "type": "spacing",
+      "value": "48px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "jvLkICColmbEei"
+      }
+    },
+    {
+      "name": "Subheading",
+      "type": "fontsize",
+      "value": "24px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "-tMUDbpBCEJh90"
+      }
+    },
+    {
+      "name": "Subtext",
+      "type": "fontsize",
+      "value": "12px",
+      "category": "fontsize",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "9JE7f-ZlaQeslr"
+      }
+    },
+    {
+      "name": "Tile spacing",
+      "type": "spacing",
+      "value": "32px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "5JPQX3dHSUEXyotTfHZPL8",
+        "id": "tmXELbYI_McLG1"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
